@@ -7,14 +7,38 @@ body {
 }
 
 .ingångssida{
-        display: flex;
-        overflow-x: auto;
-        scroll-snap-type: x mandatory;
-        width: 100vw;
-        height: 100vh;
+    display: flex;
+    overflow-x: auto;
+    width: 300vw;
+    height: 100vh;
+    scroll-snap-type: x mandatory;
+    white-space: nowrap;
     }
     
 .main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 2rem;
+    scroll-snap-align: start;
+    text-align: center;
+    background-image: url(wildhoggang.png);
+    
+}
+.main img.{
+    background-repeat: no-repeat;
+    w
+}
+
+.main2 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    scroll-snap-align: start;
+    text-align: center;
 }
