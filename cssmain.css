@@ -1,97 +1,71 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #222;
-    color: white;
-    height:100vh;
-    display:flex;
-    flex-direction: column;
-    overflow: hidden;
+    display: flex;
+    flex-direction: row; 
+    width: 100vw;  
+    height: 100vh;  
+    overflow-x: scroll;  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.ingångssida{
+.header1 {
     display: flex;
-    overflow-x: auto;
-    width: 300vw;
-    height: 100vh;
-    scroll-snap-type: x mandatory;
-    white-space: nowrap;
-    overflow: hidden;
-    }
-    
-.main{
-    width: 100vw;
-    --height:100vh;
-    display: flex;
+    align-items: center;
     justify-content: center;
-    color:#563832;
-    font-size: 2rem;
-    scroll-snap-align: start;
-    flex-grow: 5;
-    text-align: center;
-    background-image: url(wildhogs.png);
-    background-repeat: no-repeat;
-    object-fit: cover;
-    background-size: fit-content;
+    height: 100px;
+    padding: 18px;
+    background-color: #A333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10; 
 }
 
-
-
-.main2 {
-    width: 100vw;
-    height: 100vh;
+.storbild {
     display: flex;
+    align-items: center;
     justify-content: center;
-    font-size: 2rem;
-    scroll-snap-align: start;
-    text-align: center;
-    background-color: green;
-    flex-direction: column;
-    font-size: 15px;
-
+    padding: 5px;
+    gap: 5px;
+    font-size: 35px;
+    flex-grow: 1; 
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 100vw;  
 }
 
-
-.knappar {
-    top:20px;
-    right:20px;
-    position:absolute;
-    right:0px;
-    margin: 20px;
-    padding: 0;
-    z-index: 10;
-    
+.storbild img {
+    height: 300px;
+    width: 625px;
 }
-
-.knappar a {
-    display: flex;
-    text-decoration: none;
-    background: #F4E1C1;
-    color: #3C5A36;
-    padding: 10px 20px;
-    border-radius: 5px;
-    margin: 5px;
-    font-size: 18px;
-    font-weight: bold;
-    display: inline-block;
-    transition: 0.3s;
-    
-
-
-}
-
-.knappar a:hover {
-    background: #3C5A36;
-    color: #F4E1C1;
-}
-
-
 
 .footer {
-    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #333;
+    color: white;
     padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 10; 
+}
+
+.om-oss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;  
+    height: 100vh;
+    background-color: #f0f0f0;  
+    font-size: 30px;
+    color: #333;
+    text-align: center;
 }
