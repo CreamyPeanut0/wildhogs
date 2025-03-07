@@ -20,17 +20,17 @@ body {
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    color:#563832;
     font-size: 2rem;
     scroll-snap-align: start;
     text-align: center;
-    background-image: url(wildhoggang.png);
-    
-}
-.main img.{
+    background-image: url(wildhogs.png);
     background-repeat: no-repeat;
-    w
+    object-fit: cover;
+    background-size: cover;
 }
+
+
 
 .main2 {
     width: 100vw;
@@ -41,4 +41,5 @@ body {
     font-size: 2rem;
     scroll-snap-align: start;
     text-align: center;
+
 }
