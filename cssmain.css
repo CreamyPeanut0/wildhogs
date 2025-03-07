@@ -1,9 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     font-family: Arial, sans-serif;
     background-color: #222;
     color: white;
-    margin: 0;
-    padding: 0;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    overflow: hidden;
 }
 
 .ingångssida{
@@ -18,17 +25,18 @@ body {
     
 .main{
     width: 100vw;
-    height:100vh;
+    --height:100vh;
     display: flex;
     justify-content: center;
     color:#563832;
     font-size: 2rem;
     scroll-snap-align: start;
+    flex-grow: 5;
     text-align: center;
     background-image: url(wildhogs.png);
     background-repeat: no-repeat;
     object-fit: cover;
-    background-size: cover;
+    background-size: fit-content;
 }
 
 
@@ -86,5 +94,4 @@ body {
 .footer {
     height: 30px;
     padding: 20px;
-    margin:20px;
 }
