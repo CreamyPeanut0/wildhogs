@@ -95,5 +95,47 @@ body {
     color: #333;
     text-align: center;
     flex-direction: row;
-    width: 300vw;
+    width: 200vw;
+    gap: 50px;
+    padding: 100px;
+   
 }
+
+
+.knappar {
+    top:10px;
+    right:20px;
+    position:absolute;
+    right:0px;
+    margin: 20px;
+    padding: 0;
+    z-index: 10;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.knappar a {
+    display: flex;
+    text-decoration: none;
+    background: #F4E1C1;
+    color: #3C5A36;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    transition: 0.3s;
+    align-items: center;
+    justify-content: center;
+    
+
+
+}
+
+.knappar a:hover {
+    background: #3C5A36;
+    color: #F4E1C1;
+}
+
