@@ -97,3 +97,41 @@ body {
     z-index: 10;
     gap: 70px;
 }
+
+
+.knappar {
+    top:10px;
+    right:20px;
+    position:absolute;
+    right:0px;
+    margin: 20px;
+    padding: 0;
+    z-index: 10;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.knappar a {
+    display: flex;
+    text-decoration: none;
+    background: white;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    transition: 0.3s;
+    align-items: center;
+    justify-content: center;
+    
+
+
+}
+
+.knappar a:hover {
+    background: gray;
+    color: #333;
+}
