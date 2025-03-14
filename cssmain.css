@@ -189,7 +189,7 @@ textarea {
 }
 
 input[type="submit"] {
-    background-color: #04AA6D;
+    background-color: #333;
     color: white;
     cursor: pointer;
     border: none;
@@ -199,7 +199,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #038a58;
+    background-color: gray;
 }
     
   
